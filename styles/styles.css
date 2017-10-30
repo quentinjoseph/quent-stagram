@@ -1,0 +1,54 @@
+@font-face {
+  font-family: Marvin;
+  src: url(../fonts/MarvinVisions-Bold.woff); }
+
+html, body {
+  margin: 0 0;
+  height: 100%;
+  width: 100%; }
+
+h1 {
+  margin: 0; }
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: black; }
+  .wrapper .title .name {
+    font-size: 7rem;
+    color: brown;
+    font-family: Marvin;
+    text-shadow: -2px -2px 0 orange, 2px -2px 0 orange, -2px 2px 0 orange, 2px 2px 0 orange; }
+
+.holder {
+  width: 100%;
+  height: 70%; }
+
+#instafeed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90%;
+  margin: 0 auto; }
+  @media (max-width: 575px) {
+    #instafeed {
+      position: relative;
+      margin: 0 auto;
+      -webkit-transform: none;
+              transform: none;
+      top: 0;
+      left: 0; } }
+
+.thumbs {
+  max-width: 270px;
+  text-align: center; }

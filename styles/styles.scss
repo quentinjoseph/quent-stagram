@@ -1,0 +1,56 @@
+@font-face {
+font-family: Marvin;
+src: url(../fonts/MarvinVisions-Bold.woff);
+}
+
+html, body{
+  margin:0 0;
+  height: 100%;
+  width: 100%;
+}
+h1{
+  margin:0;
+}
+
+.wrapper{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: black;
+  .title{
+    .name{
+    font-size: 7rem;
+    color:brown;
+    font-family: Marvin;
+    text-shadow:
+         -2px -2px 0 orange,
+          2px -2px 0 orange,
+         -2px 2px 0 orange,
+          2px 2px 0 orange;
+    }
+  }
+}
+.holder{
+  width: 100%;
+  height: 70%;
+}
+#instafeed{
+  @media(max-width: 575px){
+    position: relative;
+    margin: 0 auto;
+    transform: none;
+    top: 0;
+    left: 0;
+  }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width:90%;
+  margin:0 auto;
+}
+.thumbs{
+  max-width: 270px;
+  text-align: center;
+
+}
